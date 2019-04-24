@@ -2,12 +2,15 @@ package com.javasampleapproach.dynamodb.controller;
 
 import java.util.Arrays;
 
+import com.javasampleapproach.dynamodb.repo.ProductsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.javasampleapproach.dynamodb.model.Customer;
+import com.javasampleapproach.dynamodb.model.Product;
+
 import com.javasampleapproach.dynamodb.repo.CustomerRepository;
 
 @RestController
@@ -16,11 +19,30 @@ public class WebController {
 	@Autowired
 	CustomerRepository repository;
 
+	@Autowired
+	ProductsRepository  Productrepository;
+
 	@RequestMapping("/delete")
 	public String delete() {
 		repository.deleteAll();
 		return "Done";
 	}
+
+	@RequestMapping("/saveProducts")
+	public String saveProducts() {
+		// save a single Customer
+		Productrepository.save(new Product("B1001",
+				"TV",
+				"Samsung TV 80 Inch",
+				"$1000", "$800",
+				"A"));
+
+
+
+		return "Done- pl validate";
+	}
+
+
 
 	@RequestMapping("/save")
 	public String save() {

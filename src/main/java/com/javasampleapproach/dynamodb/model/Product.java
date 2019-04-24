@@ -1,5 +1,10 @@
 package com.javasampleapproach.dynamodb.model;
 
+import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBAttribute;
+import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBHashKey;
+import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable;
+
+@DynamoDBTable(tableName = "Products")
 public class Product {
 
     private String productId;
@@ -21,6 +26,7 @@ public class Product {
     public Product() {
     }
 
+    @DynamoDBHashKey
     public String getProductId() {
         return productId;
     }
@@ -29,6 +35,7 @@ public class Product {
         this.productId = productId;
     }
 
+    @DynamoDBAttribute
     public String getProductShortName() {
         return productShortName;
     }
@@ -37,6 +44,7 @@ public class Product {
         this.productShortName = productShortName;
     }
 
+    @DynamoDBAttribute
     public String getProductLongName() {
         return productLongName;
     }
@@ -45,6 +53,7 @@ public class Product {
         this.productLongName = productLongName;
     }
 
+    @DynamoDBAttribute
     public String getOriginalPrice() {
         return originalPrice;
     }
@@ -53,6 +62,7 @@ public class Product {
         this.originalPrice = originalPrice;
     }
 
+    @DynamoDBAttribute
     public String getSalesPrice() {
         return salesPrice;
     }
@@ -61,6 +71,7 @@ public class Product {
         this.salesPrice = salesPrice;
     }
 
+    @DynamoDBAttribute
     public String getProductStatus() {
         return productStatus;
     }

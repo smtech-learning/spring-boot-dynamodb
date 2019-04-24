@@ -1,5 +1,7 @@
 /Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/javasampleapproach/dynamodb/model/Customer.java
 /Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/javasampleapproach/dynamodb/SpringDataDynamoDbApplication.java
 /Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/javasampleapproach/dynamodb/controller/WebController.java
+/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/javasampleapproach/dynamodb/model/Product.java
 /Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/javasampleapproach/dynamodb/repo/CustomerRepository.java
 /Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/javasampleapproach/dynamodb/config/DynamoDBConfig.java
+/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/javasampleapproach/dynamodb/repo/ProductsRepository.java
