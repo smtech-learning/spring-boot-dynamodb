@@ -9,6 +9,18 @@ public class Product {
     private String salesPrice;
     private String productStatus;
 
+    public Product(String productId, String productShortName, String productLongName, String originalPrice, String salesPrice, String productStatus) {
+        this.productId = productId;
+        this.productShortName = productShortName;
+        this.productLongName = productLongName;
+        this.originalPrice = originalPrice;
+        this.salesPrice = salesPrice;
+        this.productStatus = productStatus;
+    }
+
+    public Product() {
+    }
+
     public String getProductId() {
         return productId;
     }
