@@ -1,7 +1,8 @@
-/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/javasampleapproach/dynamodb/model/Customer.java
-/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/javasampleapproach/dynamodb/SpringDataDynamoDbApplication.java
-/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/javasampleapproach/dynamodb/controller/WebController.java
-/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/javasampleapproach/dynamodb/model/Product.java
-/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/javasampleapproach/dynamodb/repo/CustomerRepository.java
-/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/javasampleapproach/dynamodb/config/DynamoDBConfig.java
-/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/javasampleapproach/dynamodb/repo/ProductsRepository.java
+/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/thecloudthoughts/api/LambdaHandler.java
+/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/thecloudthoughts/api/repo/CustomerRepository.java
+/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/thecloudthoughts/api/model/Customer.java
+/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/thecloudthoughts/api/controller/WebController.java
+/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/thecloudthoughts/api/SpringDataDynamoDbApplication.java
+/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/thecloudthoughts/api/model/Product.java
+/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/thecloudthoughts/api/config/DynamoDBConfig.java
+/Users/suresh/_learning/aws/Serverless/Lambda/spring-boot-dynamodb/src/main/java/com/thecloudthoughts/api/repo/ProductsRepository.java

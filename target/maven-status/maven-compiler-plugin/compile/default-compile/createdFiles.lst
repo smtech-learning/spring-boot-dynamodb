@@ -1,7 +1,8 @@
-com/javasampleapproach/dynamodb/model/Product.class
-com/javasampleapproach/dynamodb/repo/ProductsRepository.class
-com/javasampleapproach/dynamodb/config/DynamoDBConfig.class
-com/javasampleapproach/dynamodb/controller/WebController.class
-com/javasampleapproach/dynamodb/SpringDataDynamoDbApplication.class
-com/javasampleapproach/dynamodb/repo/CustomerRepository.class
-com/javasampleapproach/dynamodb/model/Customer.class
+com/thecloudthoughts/api/repo/ProductsRepository.class
+com/thecloudthoughts/api/config/DynamoDBConfig.class
+com/thecloudthoughts/api/LambdaHandler.class
+com/thecloudthoughts/api/controller/WebController.class
+com/thecloudthoughts/api/model/Customer.class
+com/thecloudthoughts/api/repo/CustomerRepository.class
+com/thecloudthoughts/api/model/Product.class
+com/thecloudthoughts/api/SpringDataDynamoDbApplication.class

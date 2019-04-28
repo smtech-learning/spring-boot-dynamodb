@@ -1,4 +1,4 @@
-package com.javasampleapproach.dynamodb;
+package com.thecloudthoughts.api;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
