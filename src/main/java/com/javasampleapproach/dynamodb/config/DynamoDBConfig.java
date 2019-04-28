@@ -1,4 +1,4 @@
-package com.javasampleapproach.dynamodb.config;
+package com.thecloudthoughts.api.config;
 
 import org.socialsignin.spring.data.dynamodb.repository.config.EnableDynamoDBRepositories;
 import org.springframework.beans.factory.annotation.Value;

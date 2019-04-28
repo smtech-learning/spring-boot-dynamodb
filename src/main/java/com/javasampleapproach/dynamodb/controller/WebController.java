@@ -1,17 +1,17 @@
-package com.javasampleapproach.dynamodb.controller;
+package com.thecloudthoughts.api.controller;
 
 import java.util.Arrays;
 
-import com.javasampleapproach.dynamodb.repo.ProductsRepository;
+import com.thecloudthoughts.api.repo.ProductsRepository;
+import com.thecloudthoughts.api.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.javasampleapproach.dynamodb.model.Customer;
-import com.javasampleapproach.dynamodb.model.Product;
+import com.thecloudthoughts.api.model.Customer;
 
-import com.javasampleapproach.dynamodb.repo.CustomerRepository;
+import com.thecloudthoughts.api.repo.CustomerRepository;
 
 @RestController
 public class WebController {
